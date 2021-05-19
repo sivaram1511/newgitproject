@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home_page_view),
     path('java/',views.java_exam_view),
+    path('python/',views.python_exams_views),
 ]
