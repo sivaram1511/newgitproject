@@ -10,3 +10,5 @@ def python_exam_view(request):
     return render(request,"testapp/pythonexams.html")
 def aptitude_exam_view(request):
     return render(request,"testapp/aptitudeexams.html")
+def logout_view(request):
+    return render(request,"testapp/logout.html")
