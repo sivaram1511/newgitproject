@@ -23,4 +23,6 @@ urlpatterns = [
     path('python/',views.python_exam_view),
     path('aptitude/',views.aptitude_exam_view),
     path('accounts/',include('django.contrib.auth.urls')),
+    path('logout/',views.logout_view),
+    path('signup/',views.sign_up_view),
 ]
